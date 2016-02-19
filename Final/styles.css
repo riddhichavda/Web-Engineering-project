@@ -1,0 +1,359 @@
+
+@font-face
+{
+font-family: myFirstFont;
+src: url(BLACKR.ttf);
+font-family: main2;
+src: url(FREEBSCA.ttf);
+font-family: headerg;
+src: url(script1.ttf);
+
+}
+
+
+
+//main page
+//body
+body.general
+{
+color:purple;
+padding:0.8%;
+font-family: myFirstFont;
+font-size:29px;
+}
+
+p.general
+{
+word-spacing:60px;
+overflow:hidden;
+text-align:center;
+font-family:myFirstFont;
+font-weight:bold;
+font-size:29px;
+color:White;
+}
+
+table.general
+{
+font-family: myFirstFont;
+font-size: 33px;
+color: DarkMagenta;
+}
+
+td.general
+{
+font-family: myFirstFont;
+background:lightblue;
+}
+
+table.menu
+{
+font-family: myFirstFont;
+color:DarkMagenta;
+font-size:100%;
+position:absolute;
+visibility:hidden;
+}
+
+
+//common
+//common with main page
+a.general : link
+{
+text-decoration: none;
+color: #d2b48c;
+}
+a.general : hover
+{
+text-decoration: none;
+color: #ff7f50;
+}
+a.general:link
+{
+text-decoration: none;
+color: #d2b48c;
+}
+
+a.generalO : link
+{
+text-decoration: none;
+color: #000;
+font-weight:bold;
+}
+a.generalO : hover
+{
+text-decoration: none;
+color: #000;
+font-weight:bold;
+}
+a.generalO: link
+{
+text-decoration: none;
+color: #000;
+font-weight:bold;
+}
+
+a.generalw : link
+{
+text-decoration: none;
+color: #f00;
+font-weight:bold;
+}
+a.generalw : hover
+{
+text-decoration: none;
+color: #f00;
+font-weight:bold;
+}
+a.generalk : link
+{
+text-decoration: none;
+color: #f00;
+font-weight:bold;
+}
+a.generalk : hover
+{
+text-decoration: none;
+color: #f00;
+font-weight:bold;
+}
+
+
+
+/*border,data*/
+#gallery td, #gallery th 
+{
+font-family:"Comic Sans MS";
+color:Red;
+font-size:10px;
+border:2px solid #AA3344;
+padding:3px 2px 2px 7px;
+color:white;
+}
+/*first line*/
+#gallery th 
+{
+font-family:"Comic Sans MS"
+font-size:20px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:lightblue;
+color:#330033;
+}
+
+
+
+div.img
+{
+  margin: 2px;
+  display: inline;
+  max-height: 300px;;
+  max-width: 250px;
+  float:left;
+
+ 
+}	
+div.img img
+{
+  align: centre;
+  margin: 3px;
+  border: 2px solid #000000;
+  opacity:0.5;
+text-decoration:none;
+}
+
+div.img a:hover img 
+{
+	opacity:1;
+	
+    position: relative;
+
+ 
+
+    
+}
+
+div.desc
+{
+text-decoration:none;
+opacity:0.5;
+}
+div.desc a:hover desc 
+{
+opacity:1;
+text-decoration:none;
+}
+
+div.img hover
+{
+	width:600px;
+	height:600px;
+}
+
+
+
+/*border,data */
+#galleryr td, #galleryr th 
+{
+font-family:headerg;
+font-weight:bold;
+color:#ffffff;
+font-size:20px;
+border:2px solid #ffa07a;
+padding:3px 7px 2px 7px;
+backgound-color:#fffda2;
+
+}
+/*first line */
+#galleryr th 
+{
+font-family:headerg;
+font-size:30px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:#8B4513;
+color:#E9967A;
+}
+
+
+
+
+
+
+/*border,data*/
+#galleryf td, #gallery th 
+{
+font-family:headerg;
+font-weight:bold;
+color:#ffffff;
+font-size:20px;
+border:2px solid #ffa07a;
+padding:3px 7px 2px 7px;
+backgound-color:#fffda2;
+
+}
+/*first line*/
+#galleryf th 
+{
+font-family:headerg;
+font-size:30px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:yellow;
+color:#999944;
+}
+
+
+
+
+
+/*border,data*/
+#gallerys td, #gallery th 
+{
+font-family:headerg;
+font-weight:bold;
+color:#ffffff;
+font-size:20px;
+border:2px solid #ffa07a;
+padding:3px 7px 2px 7px;
+backgound-color:#fffda2;
+
+}
+/*first line*/
+#gallerys th 
+{
+font-family:headerg;
+font-size:20px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:black;
+color:#ffffff;
+}
+
+
+
+
+
+
+/*border,data*/
+#galleryo td, #galleryo th 
+{
+font-family:headerg;
+font-weight:bold;
+color:#000000;
+font-size:20px;
+border:2px solid #fff;
+padding:3px 7px 2px 7px;
+backgound-color:#fffda2;
+
+}
+/*first line*/
+#galleryo th 
+{
+font-family:headerg;
+font-size:20px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color: #000080 ;
+color:cyan;
+}
+
+
+
+
+/*border,data*/
+#galleryw td, #galleryw th 
+{
+font-family:headerg;
+font-weight:bold;
+color:#ffffff;
+font-size:20px;
+border:2px solid #ffa07a;
+padding:3px 7px 2px 7px;
+backgound-color:#fffda2;
+
+}
+/*first line*/
+#galleryw th 
+{
+font-family:headerg;
+font-size:20px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:red;
+color:white;
+}
+
+/*border,data*/
+#galleryk td, #galleryw th 
+{
+font-family:headerg;
+font-weight:bold;
+color:#ffffff;
+font-size:20px;
+border:2px solid #ffa07a;
+padding:3px 7px 2px 7px;
+backgound-color:#ff03a2;
+
+}
+/*first line*/
+#galleryk th 
+{
+font-family:headerg;
+font-size:20px;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:red;
+color:white;
+}
+
+
+
+

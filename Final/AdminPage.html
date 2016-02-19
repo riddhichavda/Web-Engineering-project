@@ -1,0 +1,80 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="OrderNow.css">
+
+
+
+<title>
+Admin
+</title>
+<body>
+
+
+<table class="new" >
+    		<tr>
+    			
+    			<td><a href="OrderForm.php"><button type="button" class="modern socle">Order Now</button></a></td>
+    			<td><a href="contactus.html"><button type="button" class="modern socle">Contact us</button></a></td>
+                <td><a href="AdminPage.html"><button type="button" class="modern socle">Admin</button></a></td>
+    			<td><button type="button" class="modern socle">About us</button></td>
+                <td><a href="index.html"><button type="button" class="modern socle">Home</button></a></td>
+    			<td></td>
+    		</tr>
+    	</table>
+    	<br><br><br><br><br>
+<div class="transbox">
+<form method="post" action="admin2.php">
+<label for="uname">Username*:</label> <input type="text" name="uname1" size="35" class="input"><br><br>
+<label for="password">Password*:</label> <input type="password" name="pass1" size="35" class="input"><br><br>
+<!--To insert-->
+<label>CakeId</label><input type="text" name="CakeId"/><br><br>
+<label>Price:Egg</label><input type="text" name="priceegg"/><br><br>
+<label>Price:Eggless</label><input type="text" name="pricenegg"/><br><br>
+<input type="submit" value="Insert" class="butclass"/>
+</form>
+</div>
+<div class="transbox">
+<form method="post" action="admin2.php">
+<label for="cname">Username*:</label> <input type="text" id="cname" name="uname2" size="35" class="input"><br><br>
+<label for="cname">Password*:</label> <input type="password" id="cname" name="pass2" size="35" class="input"><br><br>
+<!--To insert-->
+<label>CakeId</label><input type="text" name="CakeId"/><br>
+<input type="submit" value="Delete" class="butclass"/>
+</form>
+</div>
+<div class="transbox">
+<form method="post" action="admin2.php">
+<label for="cname">Username*:</label> <input type="text" id="cname" name="uname3" size="35" class="input"><br><br>
+<label for="cname">Password*:</label> <input type="password" id="cname" name="pass3" size="35" class="input"><br><br>
+<!--To insert-->
+<label>CakeId</label><input type="text" name="CakeId"/><br>
+<label>Price:Egg</label><input type="text" name="priceegg"/><br>
+<label>Price:Eggless</label><input type="text" name="pricenegg"/><br>
+<input type="submit" value="Update" class="butclass"/>
+</form>
+</div>
+<div class="transbox">
+<form method="post" action="admin2.php">
+<label for="cname">Username*:</label> <input type="text" id="cname" name="uname4" size="35" class="input"><br><br>
+<label for="cname">Password*:</label> <input type="password" id="cname" name="pass4" size="35" class="input"><br><br>
+<!--To insert-->
+<label>CakeId</label><input type="text" name="CakeId"/><br>
+<input type="submit" value="Select" class="butclass"/>
+</form>
+</div>
+
+
+
+<!--
+<input type="button" value="Insert" class="butclass"></type>
+<input type="button" value="Update" class="butclass"></type>
+<input type="button" value="Delete" class="butclass"></type>
+<input type="button" value="Show Orders" class="butclass"></type><br>
+-->
+
+</fieldset>
+</form>
+</div>
+</body>
+</html>
+

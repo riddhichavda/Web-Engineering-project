@@ -1,0 +1,70 @@
+<html>
+<head><title>Sweet&SassyCakes</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+body{font-family:"Comic Sans MS";}
+table{font-size:18px;background:#FE1C6B;}
+a{color:white;text-decoration:none;font:bold}
+a:hover{color:#606060}
+td.menu{background:lightblue}
+table.menu
+{
+font-size:100%;
+position:absolute;
+visibility:hidden;
+}
+</style>
+</head>
+<body background="U1.jpg">
+
+
+<script>
+function showmenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="visible";
+}
+function hidemenu(elmnt)
+{
+document.getElementById(elmnt).style.visibility="hidden";
+}
+</script>
+
+<p align=center>
+<button class="general">About Us </button><br> <br> 
+<button class="general">Contact Us</button><br>  <br> 
+<button class="general">Sign in</button><br> <br> 
+<button class="general">Order now!</button><br>  <br>
+<button class="general">
+<table>
+ <tr>
+  <td onmouseover="showmenu('Gallery')" onmouseout="hidemenu('Gallery')">
+   <a>Cake Gallery</a>
+   <table class="menu" id="Gallery" width="120">
+   <tr><td class="menu"><a href="regular.html">Regular</a></td></tr>
+   <tr><td class="menu"><a href="f&cc.html">Fruit&CheeseCakes</a></td></tr>
+   <tr><td class="menu"><a href="occasion.html">Occasion</a></td></tr>
+   <tr><td class="menu"><a href="specialc.html">Special</a></td></tr>
+   <tr><td class="menu"><a href="kidscake.html">Kids cakes</a></td></tr>
+   <tr><td class="menu"><a href="wedding.html">Wedding</a></td></tr>
+  </table>
+  </td>
+</table>
+</button>
+
+</p>
+
+<marquee bgcolor=black behaviour="scroll" /*direction="right" scrollamount="5" scroll delay=10*/ width=400px>
+<img src="C:\Users\RAMESH\Desktop\sem5\we\cake\Lavender.jpg" width="340" height="340" alt="Special">
+<img src="C:\Users\RAMESH\Desktop\sem5\we\cake\fcc.jpg" width="340" height="340" alt="Fruit&cheesecake">
+<img src="C:\Users\RAMESH\Desktop\sem5\we\cake\kid.jpg" width="340" height="340" alt="Kids">
+<img src="C:\Users\RAMESH\Desktop\sem5\we\cake\wow.jpg" width="340" height="340" alt="Occasion">
+<img src="C:\Users\RAMESH\Desktop\sem5\we\cake\iwed.jpg" width="340" height="340" alt="Wedding">
+<img src="C:\Users\RAMESH\Desktop\sem5\we\cake\reg.jpg" width="340" height="340" alt="Regular">
+</marquee>
+
+
+
+
+
+</body>
+</html>

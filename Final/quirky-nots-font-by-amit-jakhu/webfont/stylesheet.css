@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'quirky_nots';
+    src: url('quirky_nots.eot');
+    src: url('quirky_nots.eot?#iefix') format('embedded-opentype'),
+         url('quirky_nots.woff') format('woff'),
+         url('quirky_nots.ttf') format('truetype'),
+         url('quirky_nots.svg#quirky_nots') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

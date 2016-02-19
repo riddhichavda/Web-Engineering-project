@@ -1,0 +1,25 @@
+<html>
+<head><title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="css/css1.css">
+	<link rel="stylesheet" type="text/css" href="OrderNow.css">
+
+</head>
+<body bgcolor="#AA44AA">
+	<table class="new" >
+    		<tr>
+    			<td><button type="button" class="modern socle">Cake Gallery</button></td>
+    			<td><a href="OrderForm.php"><button type="button" class="modern socle">Order Now</button></a></td>
+    			<td><a href="contactus.html"><button type="button" class="modern socle">Contact us</button></a></td>
+                <td><a href="AdminPage.html"><button type="button" class="modern socle">Admin</button></a></td>
+    			<td><button type="button" class="modern socle">About us</button></td>
+                <td><a href="index.html"><button type="button" class="modern socle">Home</button></a></td>
+    			<td></td>
+    		</tr>
+    	</table>
+<br><br><br><br><br><br>
+<div class="transbox">
+<img src="cotw.jpg"height="500px" width="500px">
+Our most popular cake of the week!!
+</div>
+</body>
+</html>

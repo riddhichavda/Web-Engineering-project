@@ -1,0 +1,29 @@
+<html>
+<head><title>About Us</title>
+	<link rel="stylesheet" type="text/css" href="css/css1.css">
+	<link rel="stylesheet" type="text/css" href="OrderNow.css">
+
+</head>
+<body bgcolor="#AA44AA">
+	<table class="new" >
+    		<tr>
+    			<td><button type="button" class="modern socle">Cake Gallery</button></td>
+    			<td><a href="OrderForm.php"><button type="button" class="modern socle">Order Now</button></a></td>
+    			<td><a href="contactus.html"><button type="button" class="modern socle">Contact us</button></a></td>
+                <td><a href="AdminPage.html"><button type="button" class="modern socle">Admin</button></a></td>
+    			<td><button type="button" class="modern socle">About us</button></td>
+                <td><a href="index.html"><button type="button" class="modern socle">Home</button></a></td>
+    			<td></td>
+    		</tr>
+    	</table>
+<br><br><br><br><br><br>
+<div class="transbox">
+The following storage methods are our best suggestions, but our products are always best on day of purchase. All products should be stored in air-tight containers
+Cupcakes. Do not refrigerate. Cupcakes should be fine within 24 hours of purchase.
+Cakes. Only refrigerate if storing longer than 24 hours, except for the Cheesecake, which should always be refrigerated. All cakes should be taken out of the fridge two hours before serving for best flavour.
+Pies. Pies topped with whipped cream or meringue should be consumed on day of purchase (they may be refrigerated, but the topping won't be as nice).
+Brownies. Do not refrigerate. The cheesecake brownie should be consumed on day of purchase for best quality.
+
+</div>
+</body>
+</html>

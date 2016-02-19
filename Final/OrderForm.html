@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="OrderNow.css">
+<title>
+Order Now
+</title>
+<body>
+<div id="bgimg">
+<img src="bgimg.jpg">
+</div>
+<div class="transbox">
+	<?php
+$con=mysqli_connect("127.0.0.1","root","","SAS");
+if(isset($_POST["name"]) && isset($_POST["cakeid"]) && isset($_POST["phone"]) && isset($_POST["address"]) && isset($_POST["orderdate"]));
+{
+$name=$_POST["name"];
+$cakeid=$_POST["cakeid"];
+$contact=$_POST["phone"];
+$address=$_POST["address"];
+$odate=$_POST["orderdate"];
+if(!empty($name) && !empty($cakeid) && !empty($contact) && !empty($address) && !empty($odate))
+
+{
+	$sql="INSERT INTO Customer (Name, Address, Contact,CakeId,OrderDate) VALUES('$name','$address', '$contact','$cakeid','$odate')";
+mysqli_query($con,$sql);
+echo "Order placed";
+}
+else
+{
+	echo "All fields required";
+}
+
+}
+?>
+<form action="OrderForm.php" method="post">
+<fieldset>
+<legend>Order Now</legend>
+<label for="cname">Name*:</label> <input type="text" id="name" name="name" size="35" class="input"><br><br>
+<label for="cakeid">CakeId*:</label><input type="text" id="cakeid" size="35" name="cakeid" class="input">
+<br><br>
+<label for="orderdate">Date*: </label><input type="text" id="orderdate" name="orderdate" class="input" value="YYYY-MM-DD"><br><br>
+<font type="Segoe Script" color="#004532"><b>Please Enter Your Contact Details</b></font><br><br>
+
+<label for="phone">Phone*: </label><input type="text" id="phone" name="phone" class="input"><br><br>
+
+<label for="address">Address*:</label><textarea name="address" id="address" rows="8" cols="38"align="right" ></textarea><br><br>
+
+<center><input class="butclass" type="submit" value="OrderNow"></center>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
+
